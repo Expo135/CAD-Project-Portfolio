@@ -1,0 +1,14 @@
+# SWING-TABLE-ASSEMBLY
+This project, the swing table, is centered around constructing a table that is able to rotate 180 degrees around the horizontal axis of its base. The dimensions were already provided, it was only a matter of translating them into the Three Dimensional model space. It was designed in the SOLIDWORKS software, where various features (extrusion, revolution, mirror, etc.) would prove to be essential to completing the task at hand.
+
+There were a total of 7 Component parts. There were the Trunnion Stud, Base, and Table, which had to be created in the SOLIDWORKS design software, and the Nut, Screw, and Washer which were already available in the SOLIDWORKS toolbox.
+
+The construction of the Trunnion Stud was done by initially creating a horizontal axis. I found the measurements of the different radii that occurred throughout the part and used them to draw the drew them accordingly. Once completed, I simply used the Revolve tool around the axis to create the Stud.
+
+For the base, I started drawing the Right Side View first before extruding it so that it had the necessary thickness specified in the original drawing. Then, drew on the face for the opposite side and extended the bottom of the part using extruding so that it’d reach half of the total length. Once that was complete, I simply mirrored the body across the halfway point to get a more complete shape. It was only a matter of mirroring the constructed part so most of the Base was completed. After this, using the extrude cut to create the holes and sketching a bigger circle on one of the faces was all that was needed to make the final finishing touches.
+
+For the table, I sketched the right side view and extruded it until it was a 7x7 rectangle. After that, I created the first row. Through linear patterns and mirrors, I was able to have the pattern go across the table’s surface. The bottom supports of the table were made through extrude cut and extrusion and mirrored across a plane that was at the center of the constructed part.
+
+The assembly was fairly simple. The stud was concentric to the holes presented in the Base and the supports in the table. Once everything was aligned, the surface of the stud was made to be coincident with the corresponding “sockets” that it belonged to, the assembly was practically finished. The screw, nut, and washer from the SOLIDWORKS toolbox were connected to the table and the base through the same kind of mates.
+
+Once the assembly was completed, an interference check was run. The interference check came up with the interferences between the nut and the screw. This could not be fixed since they were “Read Only part files” so the dimensions could not be changed. There was also not another nut or screw that would’ve been appropriate for this assembly. Settling with this minor setback, I completed the SOLIDWORKS construction.
